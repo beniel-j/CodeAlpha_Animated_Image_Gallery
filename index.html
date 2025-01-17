@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Image Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+  <div class="gallery-container">
+    <h1>Animated Image Gallery</h1>
+    <div class="tabs">
+      <button class="tab-btn" onclick="showCategory('nature')">Nature</button>
+      <button class="tab-btn" onclick="showCategory('animals')">Animals</button>
+      <button class="tab-btn" onclick="showCategory('travel')">Travel</button>
+      <button class="tab-btn" onclick="showCategory('art')">Art & Creativity</button>
+      <button class="tab-btn" onclick="showCategory('technology')">Technology</button>
+    </div>
+</header>
+    <div id="nature" class="category active">
+      <h2>Nature</h2>
+      <div class="image-grid">
+        <div class="image-card"><img src="/images/nature1.jpg" alt="Forest"><p>Forest</p></div>
+        <div class="image-card"><img src="/images/nature2.jpg" alt="Mountain"><p>Mountain</p></div>
+        <div class="image-card"><img src="/images/nature3.jpg" alt="River"><p>River</p></div>
+        <div class="image-card"><img src="/images/nature4.jpg" alt="Sunset"><p>Sunset</p></div>
+        <div class="image-card"><img src="/images/nature5.jpg" alt="Valley"><p>Valley</p></div>
+        <div class="image-card"><img src="/images/nature6.jpg" alt="Beach"><p>Beach</p></div>
+        <div class="image-card"><img src="/images/nature7.jpg" alt="Waterfall"><p>Waterfall</p></div>
+        <div class="image-card"><img src="/images/nature8.jpg" alt="Rainforest"><p>Rainforest</p></div>
+      </div>
+    </div>
+
+    <div id="animals" class="category">
+      <h2>Animals</h2>
+      <div class="image-grid">
+        <div class="image-card"><img src="/images/animals1.jpg" alt="Lion"><p>Lion</p></div>
+        <div class="image-card"><img src="/images/animals2.jpg" alt="Tiger"><p>Tiger</p></div>
+        <div class="image-card"><img src="/images/animals3.jpg" alt="Elephant"><p>Elephant</p></div>
+        <div class="image-card"><img src="/images/animals4.jpg" alt="Giraffe"><p>Giraffe</p></div>
+        <div class="image-card"><img src="/images/animals5.jpg" alt="Zebra"><p>Zebra</p></div>
+        <div class="image-card"><img src="/images/animals6.jpg" alt="Penguin"><p>Penguin</p></div>
+        <div class="image-card"><img src="/images/animals7.jpg" alt="Kangaroo"><p>Kangaroo</p></div>
+        <div class="image-card"><img src="/images/animals8.jpg" alt="Panda"><p>Panda</p></div>
+      </div>
+    </div>
+    <div id="travel" class="category">
+      <h2>Travel</h2>
+      <div class="image-grid">
+        <div class="image-card"><img src="/images/travel1.jpg" alt="Paris"><p>Paris</p></div>
+        <div class="image-card"><img src="/images/travel2.jpg" alt="Rome"><p>Rome</p></div>
+        <div class="image-card"><img src="/images/travel3.jpg" alt="New York"><p>New York</p></div>
+        <div class="image-card"><img src="/images/travel4.jpg" alt="Sydney"><p>Sydney</p></div>
+        <div class="image-card"><img src="/images/travel5.jpg" alt="Tokyo"><p>Tokyo</p></div>
+        <div class="image-card"><img src="/images/travel6.jpg" alt="Dubai"><p>Dubai</p></div>
+        <div class="image-card"><img src="/images/travel7.jpg" alt="London"><p>London</p></div>
+        <div class="image-card"><img src="/images/travel8.jpg" alt="Venice"><p>Venice</p></div>
+      </div>
+    </div>
+    <div id="art" class="category">
+      <h2>Art & Creativity</h2>
+      <div class="image-grid">
+        <div class="image-card"><img src="/images/art1.jpg" alt="Abstract"><p>Abstract</p></div>
+        <div class="image-card"><img src="/images/art2.jpg" alt="Painting"><p>Painting</p></div>
+        <div class="image-card"><img src="/images/art3.jpg" alt="Sculpture"><p>Sculpture</p></div>
+        <div class="image-card"><img src="/images/art4.jpg" alt="Photography"><p>Photography</p></div>
+        <div class="image-card"><img src="/images/art5.jpg" alt="Graffiti"><p>Graffiti</p></div>
+        <div class="image-card"><img src="/images/art6.jpg" alt="Calligraphy"><p>Calligraphy</p></div>
+        <div class="image-card"><img src="/images/art7.jpg" alt="Street Art"><p>Street Art</p></div>
+        <div class="image-card"><img src="/images/art8.jpg" alt="Digital Art"><p>Digital Art</p></div>
+      </div>
+    </div>
+    <div id="technology" class="category">
+      <h2>Technology</h2>
+      <div class="image-grid">
+        <div class="image-card"><img src="/images/tech1.jpg" alt="AI"><p>AI</p></div>
+        <div class="image-card"><img src="/images/tech2.jpg" alt="Robotics"><p>Robotics</p></div>
+        <div class="image-card"><img src="/images/tech3.jpg" alt="Programming"><p>Programming</p></div>
+        <div class="image-card"><img src="/images/tech4.jpg" alt="Gadgets"><p>Gadgets</p></div>
+        <div class="image-card"><img src="/images/tech5.jpg" alt="VR"><p>Virtual Reality</p></div>
+        <div class="image-card"><img src="/images/tech6.jpg" alt="Smartphones"><p>Smartphones</p></div>
+        <div class="image-card"><img src="/images/tech7.jpg" alt="Space Tech"><p>Space Tech</p></div>
+        <div class="image-card"><img src="/images/tech8.jpg" alt="Networking"><p>Networking</p></div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
